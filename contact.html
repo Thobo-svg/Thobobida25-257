@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us – Maranatha International School</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html" class="nav-logo">
+      <img src="Maranatha logo.png" alt="Maranatha International School Logo">
+      <span>Maranatha International School</span>
+    </a>
+    <button class="hamburger" onclick="this.nextElementSibling.classList.toggle('open')" aria-label="Open navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="admission.html">Admissions</a></li>
+      <li><a href="partnership.html">Partnerships</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>Contact Us</h1>
+    <p>We&rsquo;d love to hear from you</p>
+  </div>
+
+
+  <div class="contact-section">
+
+  
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <div class="contact-item">
+        <h3>Email</h3>
+        <p>maranathainternalschool@gmail.com</p>
+      </div>
+      <div class="contact-item">
+        <h3>Location</h3>
+        <p>Gaborone, Botswana</p>
+      </div>
+      <div class="contact-item">
+        <h3>Office Hours</h3>
+        <p>Monday &ndash; Friday<br>7:30 AM &ndash; 4:30 PM</p>
+      </div>
+    </div>
+
+  
+    <div class="contact-form">
+      <h2>Send a Message</h2>
+
+      <form action="https://formspree.io/f/your-form-id" method="post">
+
+    
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="e.g. Thabo Molefe" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="e.g. Admission Enquiry">
+        </div>
+
+       
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width:100%;padding:.9rem;font-size:1rem;">Send Message</button>
+      </form>
+      <p class="form-note">
+        To activate this form, sign up at <a href="https://formspree.io" target="_blank">Formspree.io</a> and replace the form action URL.
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026 <span>Maranatha International School</span>. All rights reserved. &mdash; Gaborone, Botswana</p>
+  </footer>
+
+</body>
+</html>
